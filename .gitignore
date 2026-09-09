@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+tfplan
+.tools/
+data/
+spark-warehouse/
+evidence/athena_run.json
+evidence/athena_run.log
+evidence/glue_run.log
+*-executed.tar.gz
