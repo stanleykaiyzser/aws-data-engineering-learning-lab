@@ -10,6 +10,8 @@ tfplan
 .tools/
 data/
 spark-warehouse/
+tmp/
+output/
 evidence/athena_run.json
 evidence/athena_run.log
 evidence/glue_run.log

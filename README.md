@@ -79,4 +79,8 @@ Python 3.11+, PySpark 3.5, AWS Glue 5.0, S3, Glue Data Catalog, Athena, Terrafor
 - planos Spark locais mostraram lazy evaluation, `Exchange` (shuffle), broadcast join, skew e small files;
 - 8 testes automatizados passaram.
 
-O roteiro de estudo e os trade-offs estão em [`docs/LEARNING.md`](docs/LEARNING.md). A evidência resumida da execução está em [`evidence/aws_run_summary.json`](evidence/aws_run_summary.json) e o relato em [`docs/BUILD_LOG.md`](docs/BUILD_LOG.md).
+## Comece aqui para estudar
+
+Siga o [`docs/STUDY_GUIDE.md`](docs/STUDY_GUIDE.md): são oito sessões práticas, com arquivos para abrir, comandos, checkpoints e respostas de entrevista. A versão diagramada está em [`docs/AWS_Data_Engineering_Study_Guide.pdf`](docs/AWS_Data_Engineering_Study_Guide.pdf). Use [`docs/LEARNING.md`](docs/LEARNING.md) como referência conceitual detalhada.
+
+A evidência resumida da execução está em [`evidence/aws_run_summary.json`](evidence/aws_run_summary.json) e o relato em [`docs/BUILD_LOG.md`](docs/BUILD_LOG.md).
