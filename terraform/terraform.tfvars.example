@@ -1,0 +1,3 @@
+bucket_name = "weather-learning-REPLACE-WITH-UNIQUE-SUFFIX"
+aws_region  = "us-east-1"
+

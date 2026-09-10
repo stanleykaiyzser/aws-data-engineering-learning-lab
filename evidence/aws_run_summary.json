@@ -1,0 +1,31 @@
+{
+  "executed_at": "2026-09-09T21:37:44Z",
+  "region": "us-east-1",
+  "terraform": {
+    "resources_added": 9,
+    "resources_changed": 0,
+    "resources_destroyed": 0
+  },
+  "glue": {
+    "state": "SUCCEEDED",
+    "workers": 2,
+    "worker_type": "G.1X"
+  },
+  "athena": {
+    "rows_all_periods": 2976,
+    "avg_temperature_c_all_periods": 24.29,
+    "rows_one_day": 96,
+    "avg_temperature_c_one_day": 22.72,
+    "all_partitions_scan_bytes": 13426,
+    "one_day_partition_scan_bytes": 457,
+    "partition_scan_reduction_pct": 96.6,
+    "fact_dimension_join_scan_bytes": 25150,
+    "duplicate_check_scan_bytes": 12311,
+    "duplicate_keys": 0
+  },
+  "scope": {
+    "period": "2025-01-01/2025-01-31",
+    "locations": 4,
+    "grain": "one row per location_id and observed_at"
+  }
+}
